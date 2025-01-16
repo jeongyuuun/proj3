@@ -1,0 +1,26 @@
+.volumeWrap {
+    margin: 20px 10px;
+    display: flex;
+    gap: 20px;
+
+    button {
+        display: block;
+        width: calc(100% / 3);
+        font-size: 13px;
+        padding: 10px 0;
+        border: 1px solid #999;
+        &:hover {
+            font-weight: 700;
+            text-decoration: underline;
+        }
+        &.acitve1 {
+            background-color: #1c1c1c;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 480px) {
+}
